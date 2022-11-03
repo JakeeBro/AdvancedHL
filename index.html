@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Advanced Higher - Lower</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="main">
+        <h1><i>Advanced</i><br>Higher - Lower</h1>
+        <p id="description"></p>
+        <label for="guess-input"></label>
+        <div id="guess-container" class="input-div">
+            <input id="guess-input" type="text">
+            <button id="guess-button" onclick="guessNumber() ">Guess</button>
+        </div>
+        <p id="feedback" class="hide">The number x is x</p>
+        <p id="amount" class="hide"></p>
+        <p id="list" class="hide"></p>
+        <p id="message" class="hide">Good Guess! / Try Again!</p>
+        <button id="reset" class="hide" onclick="resetGame()">Reset Game</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
